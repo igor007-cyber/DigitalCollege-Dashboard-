@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Dashboard Digital College</title>
+  </head>
+  <body>
+    <div class="font-nunito flex bg-[#f5f6fa]">
+        <!-- Menu lateral -->
+        <aside class="w-[240px] flex items-center justify-center flex-col">
+          <section class="flex font-extrabold text-[17px] px-[57px] py-[24px]">
+            <h1 class="text-[#4880FF]">Digital</h1>
+            <h1>College</h1>
+          </section>
+
+          <nav>
+            <ul>
+              <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Dashboard</li>
+              <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Products</li>
+              <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Favorites</li>
+              <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Inbox</li>
+              <li class="my-4 px-[30px]">
+                <div class="bg-[#4880FF] w-[9px] h-[56px] absolute left-[-4.5px] rounded-md"></div>
+                <button class="bg-[#4880FF] text-white px-[45px] py-4 rounded-md hover:bg-[#1845ac] transition-all cursor-pointer">Order Lists</button>
+              </li>
+              <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md">Product Stock</li>
+            </ul>
+            <section class="border-t border-[#E0E0E0]">
+              <p class="text-xs font-bold text-[#202224] px-[40px] py-4">PAGES</p>
+              <ul>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Pricing</li>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Calender</li>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">To-Do</li>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Contact</li>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Invoice</li>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">UI Elements</li>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Team</li>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all rounded-md cursor-pointer">Table</li>
+              </ul>
+            </section>
+
+            <section class="border-t border-[#E0E0E0]">
+              <ul>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all">Settings</li>
+                <li class="py-4 pl-[75px] hover:bg-gray-100 transition-all">Logout</li>
+              </ul>
+            </section>
+          </nav>
+        </aside>
+        <!-- Seção da Direita -->
+        <section class="direita bg-[#F5F6FA] w-full h-screen">
+            <!-- Cabeçalho -->
+            <header class="w-full h-[70px] bg-white flex justify-between items-center py-4">
+               <section>
+                    <div class="bg-[#f5f6fa] border border-[#d5d5d5] rounded-3xl px-4 py-3 w-[388px] flex items-center gap-3 ml-20 mt-4">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search..." class="outline-0 w-full"/>
+                    </div>
+               </section>
+               <section class="relative ">
+                <div class="notification-icon relative mt-4 mr-20 float-right cursor-pointer">
+                  <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="">
+                  <img src="https://media.istockphoto.com/id/1471401431/vector/round-badge-of-the-state-flag-of-the-united-kingdom.jpg?s=612x612&w=0&k=20&c=vI0Rhx5iwChLP0rE7JDUKjReCDt4-KI3iTHz8875cZ8=" alt="englaterra" class="w-10 "/>
+                  <p>english</p>
+                </div>
+                <div class=""></div>
+               </section>
+            </header>
+            <!-- Conteúdo Principal -->
+            <main></main>
+        </section>
+    </div>
+  </body>
+</html>
